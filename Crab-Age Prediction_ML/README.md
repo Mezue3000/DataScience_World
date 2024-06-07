@@ -1,0 +1,1 @@
+This is regression analysis of a crab with featues like: length, weight, sex, height and the target output: Age. i trained this model with these features to be able to predict the age of a Crab... Initially i cleaned the data, performed exploratory data analysis, scaled,  got rid of outliers and finally trained the model using gradient boosting algorithm(xgboost)
