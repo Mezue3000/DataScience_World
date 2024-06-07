@@ -1,0 +1,1 @@
+This is a mini salary prediction dataset gotten from kaggle for linearRegression analysis, i preprocessed, visualized and further trained the model using xgboost algorithm
