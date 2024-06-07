@@ -1,0 +1,1 @@
+This is a housing plan model used to determine the price of a building using the following features like: squaremeters, haspool, hasyard, isnewbuilt, numberofroom, garage.....i trained the model using deep neural network and also performed exploratory data analysis(EDA)
