@@ -7,17 +7,27 @@ The objective of this data science projects is to analyze numerous machine learn
 
 Project Structure:
 The repository is organized as follows:
+
 data/: Contains raw and processed data files.
+
 notebooks/: Jupyter notebooks used for data exploration and model development.
-scripts/: Python scripts for data preprocessing, model training, and evaluation.
+
+scripts/: Python scripts for data preprocessing, model training, and evaluation
+.
 models/: Saved model files.
+
 results/: Output files, including visualizations and model performance metrics.
+
 README.md: Project overview
+
 
 Key Features:
 Data Processing: Scripts and notebooks for cleaning and transforming data.
+
 Exploratory Data Analysis: Interactive notebooks with visualizations and insights.
+
 Model Building: Implementation of various machine learning models.
+
 Evaluation: Metrics and plots to assess model performance.
 
 
