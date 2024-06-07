@@ -1,0 +1,1 @@
+Welcome to machine learning project, i manually created the dataset with features(age, country, gender and sports), preprocesed and trained it with DecisionTree algorithm to predict the kind of sports people of certain age, country and gender like...I also did some visualiztion using Plotly Express to explore more insight about my data
