@@ -1,0 +1,1 @@
+This is a kaggle dataset about airline industries, it contain features like flight, time, airline, length and class. i did some visulization to gain deep insight about the data, i cleaned the data, got rid of outliers and trained the model using deep neural network
