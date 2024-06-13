@@ -3,14 +3,14 @@ Welcome to the repository for my data science projects! This README file provide
 
 
 Project Objective:
-The objective of this data science projects is to analyze numerous machine learning problems like(classification problem[Binary_Classification and multiple classification, Image/video Classification], Linear regression analysis and Natural Language Preprocessing{NLP}) using historical data from datahubs like KAGGLE & UCL. This involves data collection, cleaning, exploratory data analysis (EDA), model building, and evaluation.
+The objective of this data science projects is to analyze numerous machine learning problems like(classification problem[Binary_Classification and multiple classification, Image/video Classification{CNN}], Linear regression analysis and Natural Language Preprocessing{NLP}) using historical data from datahubs like KAGGLE. This involves data collection, cleaning, exploratory data analysis (EDA), model building, and evaluation.
 
 Project Structure:
 The repository is organized as follows:
 
 data/: Contains raw and processed data files.
 
-notebooks/: Jupyter notebooks used for data exploration and model development.
+notebooks/: Jupyter notebooks natively on Vs-code used for data exploration and model development.
 
 scripts/: Python scripts for data preprocessing, model training, and evaluation
 .
@@ -36,7 +36,7 @@ The key findings and model performance metrics are documented in the results/ di
 
 
 Framework/Libraries Used:
-Pandas, Numpy, Scikit-Learn, Plotly-Express, TensorFlow, Keras, SQL, Excel, Pyspark, LangChain, Streamlit, Fastapi, Pydantic, Uvicorn
+Pandas, Numpy, Scikit-Learn, Plotly-Express, TensorFlow, Keras, SQL, Excel, Pyspark, Spacy, LangChain, Streamlit, Fastapi, Pydantic, Uvicorn
 
 
 Contributing:
