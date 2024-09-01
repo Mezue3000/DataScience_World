@@ -36,7 +36,7 @@ The key findings and model performance metrics are documented in the results/ di
 
 
 Framework/Libraries Used:
-Pandas, Numpy, Scikit-Learn, Plotly-Express, TensorFlow, Keras, SQL, Excel, Pyspark, Spacy, LangChain, Streamlit, Fastapi, Pydantic, Uvicorn
+Pandas, Numpy, Scikit-Learn, Plotly-Express, Matplotlib, TensorFlow, Keras, SQL, Excel, Tableau, BeautifulSoup(Bs4), Pyspark, Spacy, LangChain, Streamlit, Fastapi, Pydantic, Uvicorn
 
 
 Contributing:
