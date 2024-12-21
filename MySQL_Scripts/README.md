@@ -1,7 +1,7 @@
 This repository contains collection of sequel queries i have written for managing and maintaining database...
 Here, i created an online_vendor database called "sales_db". Created tables that made up the sales_db and also populated the tables with datas, which i used as my reference point in writing these queries...
 
-**TABLE OF CONTENTS**
+**TABLE OF CONTENTS**:
 #Scripts
    #database_creation
    #table_creation
@@ -14,5 +14,4 @@ Here, i created an online_vendor database called "sales_db". Created tables that
    #view_creation
    #stored_procedures_creation
    #trigger_creation
-   #transaction_creation
-   #E.T.C
+   #transaction_creation...
