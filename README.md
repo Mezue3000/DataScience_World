@@ -36,13 +36,13 @@ The key findings and model performance metrics are documented in the results/ di
 
 
 Framework/Libraries Used:
-Pandas, Numpy, Scikit-Learn, Plotly-Express, Matplotlib, TensorFlow, Keras, SQL, Excel, Tableau, BeautifulSoup(Bs4), Pyspark, Spacy, LangChain, Streamlit, Fastapi, Pydantic, Uvicorn
+Pandas, Numpy, Scikit-Learn, Plotly-Express, Matplotlib, TensorFlow, Keras, MySQL, Excel, Tableau, BeautifulSoup(Bs4), Pyspark, Spacy, LangChain, Fastapi, Pydantic, Uvicorn
 
 
 Contributing:
 Contributions are welcome! If you have any ideas or improvements, please open an issue or submit a pull request.
 
 Author:
-This project was created by Mezue Obiora. For any questions or inquiries, please contact me at [mezueworld@yahoo.com] [+2347035775926] [Lagos-Nigeria]
+This project was created by Mezue Obiora. For any questions or inquiries, please contact me at [mezueworld@yahoo.com] [+2347035775926, +2348127144640] [Lagos-Nigeria]
 
 Big thanks for exploring my data science projects!
