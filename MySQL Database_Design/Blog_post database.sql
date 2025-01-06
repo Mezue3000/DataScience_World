@@ -29,12 +29,11 @@ CREATE TABLE IF NOT EXISTS posts(
 );
 
 CREATE TABLE IF NOT EXISTS comments(
-		comment_id  INT PRIMARY KEY AUTO_INCREMENT,
+	comment_id  INT PRIMARY KEY AUTO_INCREMENT,
         content     VARCHAR(450) NOT NULL,
         post_id     INT NOT NULL,
         FOREIGN KEY(post_id)
         REFERENCES posts(post_id)
         ON UPDATE CASCADE
-        ON DELETE NO ACTION
-        
+        ON DELETE NO ACTION   
 );
