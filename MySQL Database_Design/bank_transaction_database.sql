@@ -12,8 +12,9 @@ DROP TABLE IF EXISTS customers;
 CREATE TABLE IF NOT EXISTS customers(
       customer_id   INT PRIMARY KEY AUTO_INCREMENT,
       first_name    VARCHAR(50) NOT NULL,
-      last_name     VARCHAR(50) NOT NULL,
-      age           TINYINT CHECK(age >= 18),
+      middle_name   VARCHAR(50),
+      surname       VARCHAR(50) NOT NULL,
+      birth_date    DATE NOT NULL,
       email         VARCHAR(50) NOT NULL UNIQUE,
       phone_number  VARCHAR(45) NOT NULL UNIQUE,
       address       VARCHAR(75) NOT NULL
