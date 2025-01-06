@@ -10,6 +10,7 @@ Here, i created an online_vendor database called "sales_db". Created tables that
    #data_deletion
    #join_operations
    #sub_queries
+   #functions
    #index_creation
    #view_creation
    #stored_procedures_creation
