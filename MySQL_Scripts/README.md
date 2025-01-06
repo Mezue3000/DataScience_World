@@ -14,4 +14,6 @@ Here, i created an online_vendor database called "sales_db". Created tables that
    #view_creation
    #stored_procedures_creation
    #trigger_creation
+   #window functions
+   #common table expressions(CTEs)
    #transaction_creation...
