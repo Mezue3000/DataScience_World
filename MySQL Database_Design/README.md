@@ -1,8 +1,8 @@
-                                         ** SQL Database Design **           
+                                        SQL Database Design       
 **Overview**
 This database design was created by [Mezue Obiora]. Contributions and feedbacks are welcome!
 
-This repository contains the SQL database design for
+The repository contains the SQL database design for
 
 **Blogpost**:I designed this database to store, manage blog posts, comments and users.
 
@@ -16,4 +16,5 @@ Scalable and Modular Design: Designed to support future enhancements.
 
 Data Normalization: I Ensured elimination of redundancy and dependency.
 
-Integrity Constraints: I implemented primary and foreign keys, unique constraints, different datatypes and checks to maintain data validity.
+Integrity Constraints: I implemented primary and foreign keys, unique constraints, datatypes and checks to maintain data validity.
+**NB:** I made use of MYSQL-workbench and SQL in implementing these database designs
