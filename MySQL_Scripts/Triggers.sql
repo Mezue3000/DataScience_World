@@ -1,4 +1,4 @@
--- Create trigger than executes when we insert a record
+-- Create trigger than executes after we insert a record
 
 USE sales_hub;
 DELIMITER $$
