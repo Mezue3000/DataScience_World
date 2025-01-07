@@ -1,4 +1,4 @@
-                                        SQL Database Design       
+                                  **MYSQL Database Design**
 **Overview**
 This database design was created by [Mezue Obiora]. Contributions and feedbacks are welcome!
 
@@ -17,4 +17,5 @@ Scalable and Modular Design: Designed to support future enhancements.
 Data Normalization: I Ensured elimination of redundancy and dependency.
 
 Integrity Constraints: I implemented primary and foreign keys, unique constraints, datatypes and checks to maintain data validity.
+
 **NB:** I made use of MYSQL-workbench and SQL in implementing these database designs
