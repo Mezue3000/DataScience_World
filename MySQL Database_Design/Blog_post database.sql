@@ -21,8 +21,8 @@ CREATE TABLE IF NOT EXISTS posts(
         post_id    INT PRIMARY KEY AUTO_INCREMENT,
         title      VARCHAR(125) NOT NULL,
         content    VARCHAR(450) NOT NULL,
-	created_at TIMESTAMP DEFAULT(CURTIME()),
-	updated_at TIMESTAMP DEFAULT(CURTIME()),
+	created_at DATETIME NOT NULL DEFAULT NOW(),
+	updated_at DATETIME NOT NULL DEFAULT NOW() ON UPDATE NOW(),
         user_id    INT  NOT NULL,
         FOREIGN KEY(user_id)
         REFERENCES users(user_id)
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS posts(
 CREATE TABLE IF NOT EXISTS comments(
 	comment_id   INT PRIMARY KEY AUTO_INCREMENT,
         content      VARCHAR(450) NOT NULL,
-	created_at   TIMESTAMP DEFAULT(CURTIME()),
+	created_at   DATETIME DEFAULT NOW(),
         post_id      INT NOT NULL,
         FOREIGN KEY(post_id)
         REFERENCES posts(post_id)
