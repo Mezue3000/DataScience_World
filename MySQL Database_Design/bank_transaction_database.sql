@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS accounts(
 CREATE TABLE IF NOT EXISTS transactions(
        transaction_id       INT PRIMARY KEY AUTO_INCREMENT,
        transaction_type     VARCHAR(15) NOT NULL CHECK(transaction_type IN ('deposite', 'withdrawal', 'transfer', 'payment', 'credit', 'foreign')),
-       transaction_date     DATETIME DEFAULT(NOW()),
+       transaction_date     DATETIME NOT NULL DEFAULT NOW(),
        transaction_amount   DECIMAL(12, 2) CHECK(transaction_amount > 0),
        transation_reference VARCHAR(50),
        transaction_status   VARCHAR(30) NOT NULL,
@@ -49,8 +49,8 @@ CREATE TABLE IF NOT EXISTS transactions(
 DROP TABLE IF EXISTS transfers;
 CREATE TABLE IF NOT EXISTS transfers(
        transfer_id        INT PRIMARY KEY AUTO_INCREMENT,
-       transfer_date      DATETIME DEFAULT(NOW()),
-       amount             DECIMAL(12, 2) NOT NULL,
+       transfer_date      DATETIME NOT NULL DEFAULT NOW(),
+       amount             DECIMAL(12, 2) NOT NULL CHECK(amount > 0),
        sender_name        VARCHAR(50) NOT NULL,
        beneficiary_name   VARCHAR(50) NOT NULL,
        description        VARCHAR(125)
