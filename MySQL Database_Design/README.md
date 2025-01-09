@@ -14,7 +14,7 @@ The repository contains the SQL/MySQL database design for:
 
 **Flight-booking system**: This database keep tracks of flight which comprises passenger details, flight-details, aircraft/airlines, luggages and payment-gateways. The database enables efficient organization, retrival and analysis of flight data. Below is the EER diagram of the database schema[MySQL-Workbench]
 
-[Flight_booking_system](https://github.com/Mezue3000/DataScience_World/blob/main/MySQL%20Database_Design/EER-Diagram.png)
+[Flight_booking_system EER-Diagram](https://github.com/Mezue3000/DataScience_World/blob/main/MySQL%20Database_Design/EER-Diagram.png)
 
 These design are structured to ensure efficient data storage, retrieval, and integrity.
 
