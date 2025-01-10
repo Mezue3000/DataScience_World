@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS customers(
 
 CREATE TABLE IF NOT EXISTS orders(
      order_id    INT PRIMARY KEY AUTO_INCREMENT,
-     date        DATE NOT NULL DEFAULT NOW(),
+     order_date  DATETIME NOT NULL DEFAULT NOW(),
      customer_id INT NOT NULL,
      product_id  INT NOT NULL,
      FOREIGN KEY fk_orders_customers(customer_id)
@@ -85,7 +85,7 @@ VALUES('linda', 'grenny', 'linda@gmail.com', 21, 'house 15 quebec', 'f'),
        ('joshua', 'maggy', 'joshua@gmail.com', 68, 'no 55 godson quebec', 'm'),
        ('magreth', 'hope', 'hope@yahoo.com', 45, 'km_21 gomson texas', 'f');
        
-INSERT INTO orders(date, customer_id, product_id)
+INSERT INTO orders(order_date, customer_id, product_id)
 VALUES('2022-04-28', 2, 1),
        ('2022-08-14', 3, 4),
        ('2022-01-30', 5, 6),
