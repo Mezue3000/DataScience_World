@@ -24,6 +24,6 @@ Scalable and Modular Design:I designed these database to support future enhancem
 
 Data Normalization: I ensured elimination of redundancy and dependency.
 
-Integrity Constraints: I implemented primary and foreign keys, unique constraints, datatypes and check contraints to maintain data validity.
+Integrity Constraints: I implemented primary and foreign keys, unique constraints, datatypes and check constraints to maintain data validity.
 
 **NB:** I made use of MySQL-Workbench and SQL in implementing these database designs
