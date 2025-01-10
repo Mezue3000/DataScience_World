@@ -62,12 +62,12 @@ CREATE TABLE IF NOT EXISTS `Flight_booking_system`.`tickets` (
     FOREIGN KEY (`flight_id`)
     REFERENCES `Flight_booking_system`.`flights` (`flight_id`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    ON UPDATE CASCADE,
   CONSTRAINT `fk_flights_has_passengers_passengers1`
     FOREIGN KEY (`passenger_id`)
     REFERENCES `Flight_booking_system`.`passengers` (`passenger_id`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -87,7 +87,7 @@ CREATE TABLE IF NOT EXISTS `Flight_booking_system`.`payments` (
     FOREIGN KEY (`ticket_id`)
     REFERENCES `Flight_booking_system`.`tickets` (`ticket_id`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -104,7 +104,7 @@ CREATE TABLE IF NOT EXISTS `Flight_booking_system`.`airlines` (
     FOREIGN KEY (`flight_id`)
     REFERENCES `Flight_booking_system`.`flights` (`flight_id`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -122,7 +122,7 @@ CREATE TABLE IF NOT EXISTS `Flight_booking_system`.`aircrafts` (
     FOREIGN KEY (`airline_id`)
     REFERENCES `Flight_booking_system`.`airlines` (`airline_id`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -154,12 +154,12 @@ CREATE TABLE IF NOT EXISTS `Flight_booking_system`.`airport_flights` (
     FOREIGN KEY (`airport_id`)
     REFERENCES `Flight_booking_system`.`airports` (`airport_id`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    ON UPDATE CASCADE,
   CONSTRAINT `fk_airports_has_flights_flights1`
     FOREIGN KEY (`flight_id`)
     REFERENCES `Flight_booking_system`.`flights` (`flight_id`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -178,7 +178,7 @@ CREATE TABLE IF NOT EXISTS `Flight_booking_system`.`baggages` (
     FOREIGN KEY (`ticket_id`)
     REFERENCES `Flight_booking_system`.`tickets` (`ticket_id`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
