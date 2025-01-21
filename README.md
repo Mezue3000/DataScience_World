@@ -40,7 +40,7 @@ Pandas, Numpy, Scikit-Learn, Plotly-Express, Matplotlib, TensorFlow, Keras, MySQ
 
 
 **Contributing:**
-Contributions are welcome! If you have any ideas or improvements, please open an issue or submit a pull request.
+Contributions are welcome! If you have any ideas or improvements, please open an issue.
 
 **Author:**
 This project was created by Mezue Obiora. For any questions or inquiries, please contact me at [mezueworld@yahoo.com] [+2347035775926, +2348127144640] [Lagos-Nigeria]
