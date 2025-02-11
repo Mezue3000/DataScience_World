@@ -1,1 +1,1 @@
-This is a mini salary prediction dataset gotten from kaggle for linearRegression analysis, i preprocessed, visualized and further trained the model using xgboost algorithm
+This is a mini salary prediction dataset gotten from kaggle for linearRegression analysis, i preprocessed, visualized and further trained the model using xgboost algorithm...Finally, i exported the data by building a FastAPI app that allow users to send input data and receive model predictions in real time.
