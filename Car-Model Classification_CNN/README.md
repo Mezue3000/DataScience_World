@@ -1,0 +1,1 @@
+This is a car classification images dataset i got from Kaggle. Here i loaded the dataset, applied image augmentation, autotuned the dataset for better performance and finally leveraged the power of pretrained models(VGG16) to preprocess and trained the model using functional api. which yielded out a perfect predicting model for different classification of cars
