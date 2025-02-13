@@ -1,1 +1,1 @@
-This is my certificate in pdf format, you download to view my skill acqusition in the fields like  **fullstack Software Development** and **Artificial Intelligent** issued to me by **Gomycode** global techhub
+This is my certificate in pdf format, Feel free to download, check it out and verify the achievement in the fields like  **fullstack Software Development** and **Artificial Intelligent** issued to me by **Gomycode** global techhub
