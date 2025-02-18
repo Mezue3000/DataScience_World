@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS users(
        email       VARCHAR(50) NOT NULL UNIQUE,
        country     VARCHAR(25) NOT NULL,
        city        VARCHAR(25) NOT NULL
+       created_at  DATETIME NOT NULL NOW()
 );
 
 
