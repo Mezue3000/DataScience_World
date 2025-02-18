@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS users(
        first_name        VARCHAR(25) NOT NULL,
        last_name         VARCHAR(25) NOT NULL,
        email             VARCHAR(50) NOT NULL UNIQUE,
-       password_hashed   INT NOT NULL
+       password_hash     VARCHAR(500) NOT NULL
        country           VARCHAR(25) NOT NULL,
        city              VARCHAR(25) NOT NULL
        created_at        DATETIME NOT NULL NOW()
