@@ -8,13 +8,14 @@ DROP TABLE IF EXISTS comments;
 
 DROP TABLE IF EXISTS users;
 CREATE TABLE IF NOT EXISTS users(
-       user_id     INT PRIMARY KEY AUTO_INCREMENT,
-       first_name  VARCHAR(25) NOT NULL,
-       last_name   VARCHAR(25) NOT NULL,
-       email       VARCHAR(50) NOT NULL UNIQUE,
-       country     VARCHAR(25) NOT NULL,
-       city        VARCHAR(25) NOT NULL
-       created_at  DATETIME NOT NULL NOW()
+       user_id           INT PRIMARY KEY AUTO_INCREMENT,
+       first_name        VARCHAR(25) NOT NULL,
+       last_name         VARCHAR(25) NOT NULL,
+       email             VARCHAR(50) NOT NULL UNIQUE,
+       password_hashed   INT NOT NULL
+       country           VARCHAR(25) NOT NULL,
+       city              VARCHAR(25) NOT NULL
+       created_at        DATETIME NOT NULL NOW()
 );
 
 
