@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS customers(
 
 CREATE TABLE IF NOT EXISTS accounts(
       account_id     INT PRIMARY KEY AUTO_INCREMENT,
-      account_type   VARCHAR(15) NOT NULL CHECK(account_type IN ('savings', 'current', 'domicilary', 'joint', 'salary')),
+      account_type   VARCHAR(15) NOT NULL CHECK(account_type IN ('savings', 'current', 'domicilary', 'salary')),
       account_number INT NOT NULL,
       balance        DECIMAL(12, 2) DEFAULT(0),
       customer_id    INT NOT NULL,
