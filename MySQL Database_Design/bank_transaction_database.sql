@@ -54,31 +54,20 @@ CREATE TABLE IF NOT EXISTS transfers(
        sender_name        VARCHAR(50) NOT NULL,
        beneficiary_name   VARCHAR(50) NOT NULL,
        description        VARCHAR(125)
+       sender_transaction_id INT NOT NULL UNIQUE,
+       receiver_transaction_id INT NOT NULL UNIQUE,
+       FOREIGN KEY (sender_transaction_id) REFERENCES transaction(transaction_id) ON DELETE CASCADE,
+       FOREIGN KEY (receiver_transaction_id) REFERENCES transaction(transaction_id) ON DELETE CASCADE
 );
 
--- Link Table between transfers and accounts
-CREATE TABLE IF NOT EXISTS transfer_accounts(
-       account_id        INT NOT NULL,
-       transfer_id       INT NOT NULL,
-       transfer_type     VARCHAR(15) NOT NULL CHECK(transfer_type IN('credit', 'debit')),
-       PRIMARY KEY(account_id, transfer_id),
-       
-       FOREIGN KEY(account_id)
-       REFERENCES accounts(account_id)
-       ON UPDATE CASCADE
-       ON DELETE NO ACTION,
-       
-       FOREIGN KEY(transfer_id)
-       REFERENCES transfers(transfer_id)
-       ON UPDATE CASCADE
-       ON DELETE NO ACTION
-);
+
 
 CREATE TABLE IF NOT EXISTS cards(
        card_id           INT PRIMARY KEY AUTO_INCREMENT,
        card_type         VARCHAR(15) NOT NULL CHECK(card_type IN('mastercard', 'visa', 'verve', 'gift card')),
        card_number       INT NOT NULL UNIQUE,
        expiration_date   DATE NOT NULL,
+       is_active         BOOL DEFAULT True
        account_id        INT NOT NULL,
        FOREIGN KEY(account_id)
        REFERENCES accounts(account_id)
